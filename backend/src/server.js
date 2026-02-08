@@ -18,7 +18,7 @@ app.use(express.json({ limit: '2mb' }));
 app.use('/uploads', express.static('uploads'));
 
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', service: 'WarmCrumbs Bakery API' });
+  res.json({ status: 'ok', service: 'VALENTINE Bakery API' });
 });
 
 app.use('/api/auth', authRoutes);

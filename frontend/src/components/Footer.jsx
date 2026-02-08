@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="mt-16 border-t border-bakery-200 bg-cream-200/80">
       <div className="mx-auto grid max-w-6xl gap-8 px-6 py-12 md:grid-cols-3">
         <div>
-          <h3 className="font-display text-xl text-bakery-800">WarmCrumbs Bakery</h3>
+          <h3 className="font-display text-xl text-bakery-800">VALENTINE Bakery</h3>
           <p className="mt-3 text-sm text-bakery-700">
             Artisan bakes crafted daily with organic ingredients, local dairy, and seasonal flavors.
           </p>

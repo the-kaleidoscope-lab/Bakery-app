@@ -21,8 +21,8 @@ export default function TopNav() {
     <header className="sticky top-0 z-40 bg-cream-100/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <div>
-          <p className="font-display text-2xl text-bakery-800">WarmCrumbs</p>
-          <p className="text-xs text-bakery-500">Bakery Atelier</p>
+          <p className="font-display text-2xl text-bakery-800">VALENTINE</p>
+          <p className="text-xs text-bakery-500">Pâtisserie & Bakery</p>
         </div>
         <nav className="hidden items-center gap-6 text-sm font-semibold text-bakery-700 md:flex">
           {links.map((link) => (

@@ -22,7 +22,7 @@ export default function Home() {
         <div className="flex flex-col justify-center gap-6">
           <span className="badge w-fit">Freshly baked this morning</span>
           <h1 className="font-display text-4xl text-bakery-900 md:text-5xl">
-            Discover artisan bakes crafted for celebrations, cozy mornings, and sweet cravings.
+            VALENTINE delivers artisan bakes for celebrations, cozy mornings, and sweet cravings.
           </h1>
           <p className="text-sm text-bakery-700">
             Browse curated collections of cakes, breads, pastries, and seasonal treats. Personalize every

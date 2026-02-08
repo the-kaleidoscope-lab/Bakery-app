@@ -1,4 +1,4 @@
-# WarmCrumbs Bakery E-commerce Application
+# VALENTINE Bakery E-commerce Application
 
 A full-stack bakery storefront with a modern React + Tailwind frontend and a Node.js/Express + MongoDB backend.
 

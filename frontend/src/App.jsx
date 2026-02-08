@@ -13,7 +13,12 @@ import Admin from './pages/Admin.jsx';
 
 export default function App() {
   return (
-    <div className="min-h-screen">
+    <div className="relative min-h-screen overflow-hidden">
+      <div className="pointer-events-none absolute inset-0 -z-10">
+        <div className="floating-blob blob-1" />
+        <div className="floating-blob blob-2" />
+        <div className="floating-blob blob-3" />
+      </div>
       <TopNav />
       <Routes>
         <Route path="/" element={<Home />} />
