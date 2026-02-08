@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  @apply bg-vanilla text-espresso;
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, rgba(248, 240, 229, 0.95), rgba(245, 210, 198, 0.65));
+}
+
+input, select, textarea {
+  @apply text-espresso;
+}
