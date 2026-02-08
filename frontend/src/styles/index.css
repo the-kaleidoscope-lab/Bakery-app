@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background: linear-gradient(180deg, #fffaf5 0%, #fdf3e6 100%);
+}
+
+.floating-blob {
+  position: absolute;
+  border-radius: 999px;
+  opacity: 0.45;
+  filter: blur(2px);
+  animation: float 18s ease-in-out infinite;
+}
+
+.blob-1 {
+  width: 320px;
+  height: 320px;
+  top: -60px;
+  left: -80px;
+  background: radial-gradient(circle at top, #f7d9c4, transparent 70%);
+}
+
+.blob-2 {
+  width: 240px;
+  height: 240px;
+  bottom: 120px;
+  right: -40px;
+  background: radial-gradient(circle at top, #e4d7f5, transparent 70%);
+  animation-delay: 4s;
+}
+
+.blob-3 {
+  width: 280px;
+  height: 280px;
+  top: 260px;
+  right: 20%;
+  background: radial-gradient(circle at top, #d8f3dc, transparent 70%);
+  animation-delay: 8s;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px) translateX(0px);
+  }
+  50% {
+    transform: translateY(-18px) translateX(12px);
+  }
+}
+
+.dark body {
+  background: linear-gradient(180deg, #2e1d13 0%, #1c120c 100%);
+  color: #fdf3e6;
+}
+
+.dark .card {
+  @apply bg-bakery-900/80 text-cream-100;
+}
+
+.dark .input-field {
+  @apply border-bakery-700 bg-bakery-800/80 text-cream-100;
+}
+
+.input-field {
+  @apply w-full rounded-2xl border border-bakery-200 bg-white/80 px-4 py-3 text-sm shadow-sm outline-none focus:border-bakery-400 focus:ring-2 focus:ring-bakery-200;
+}
+
+.button-primary {
+  @apply rounded-full bg-bakery-600 px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-bakery-700;
+}
+
+.badge {
+  @apply rounded-full bg-pastel-peach px-3 py-1 text-xs font-semibold text-bakery-800;
+}
+
+.card {
+  @apply rounded-3xl bg-white/90 p-6 shadow-soft backdrop-blur;
+}
+
+.section-title {
+  @apply font-display text-3xl font-semibold text-bakery-800;
+}
